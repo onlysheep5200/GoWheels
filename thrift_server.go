@@ -4,8 +4,8 @@ import (
 	"./thrift_demo"
 	"fmt"
 	"context"
-	"git.apache.org/thrift.git/lib/go/thrift"
 	"log"
+	"github.com/apache/thrift/lib/go/thrift"
 )
 
 type GreeterHandler struct{}
